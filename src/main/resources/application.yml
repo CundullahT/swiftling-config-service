@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: swiftling-config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${SWIFTLING_GITHUB_URL}
+          default-label: master
+          username: ${SWIFTLING_GITHUB_USERNAME}
+          password: ${SWIFTLING_GITHUB_PASSWORD}
+
+server:
+  port: 8888
+
+encrypt:
+  key: ${SWIFTLING_KEY}
