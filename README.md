@@ -11,12 +11,12 @@ Ensure the following dependencies are installed and configured:
 ## Environment Variables
 The following environment variables must be set for the application to function properly:
 
-| Variable Name               | Description                                                                                                                                                                                                                                                           |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `SWIFTLING_GITHUB_URL`      | GitHub repository containing configuration files (Make sure to copy the files in the example configuration repository in to your own config repository or fork it) ---> ([Example Configuration Repository](https://github.com/CundullahT/swiftling-config-repo.git)) |
-| `SWIFTLING_GITHUB_USERNAME` | GitHub username for accessing the repository (You need to use your own username)                                                                                                                                                                                      |
-| `SWIFTLING_GITHUB_PASSWORD` | GitHub fine-grained token or personal access token (not the actual password)                                                                                                                                                                                          |
-| `SWIFTLING_KEY`             | Encryption key for encrypting/decrypting sensitive properties (you can use any value you want here, e.g. "my-key")                                                                                                                                                      |
+| Variable Name               | Description|
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `SWIFTLING_GITHUB_URL`      | GitHub repository containing configuration files (Make sure to copy the files in the example configuration repository in to your own config repository or fork it) ---> ([Example Configuration Repository](https://github.com/CundullahT/swiftling-config-repo.git))|
+| `SWIFTLING_GITHUB_USERNAME` | GitHub username for accessing the repository (You need to use your own username)|
+| `SWIFTLING_GITHUB_PASSWORD` | GitHub fine-grained token or personal access token (not the actual password)|
+| `SWIFTLING_KEY`             | Encryption key for encrypting/decrypting sensitive properties (you can use any value you want here, e.g. "my-key")|
 
 ## GitHub Authentication
 This Config Server retrieves configurations from a GitHub repository. If you are not a direct contributor, you must fork the repository and create a personal version with the same files.
